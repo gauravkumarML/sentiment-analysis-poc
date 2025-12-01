@@ -1,0 +1,18 @@
+[project]
+name = "staffbase-poc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bertopic>=0.17.3",
+    "notebook>=7.5.0",
+    "pandas>=2.3.3",
+    "plotly>=6.5.0",
+    "spacy>=3.8.11",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
